@@ -29,7 +29,8 @@ public class DataBaseDocker {
 
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
 
-        dataSource.setUrl(String.format("jdbc:mysql://%s:%s/%s?useTimezone=true&serverTimezone=UTC", servidor, porta, bancoDeDados));
+        dataSource.setUrl(String.format("jdbc:mysql://%s:%s/%s?useTimezone=true&serverTimezone=UTC",
+                servidor, porta, bancoDeDados));
 
         dataSource.setUsername(login);
         dataSource.setPassword(senha);
