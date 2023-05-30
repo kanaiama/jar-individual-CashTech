@@ -1,4 +1,4 @@
-package models;
+package Componentes;
 
 public class Componente {
 
